@@ -1,0 +1,16 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+.dibba {
+    display : flex;
+    margin: 20px 60px ;
+    height: 50vh;
+    background-color: red;
+    justify-content: center ;
+    align-items: center ;
+}
+.dibba h1 {
+    margin: 0;
+}
