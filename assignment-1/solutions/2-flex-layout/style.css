@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    height: 10vh;
+    border: 2px solid black;
+    margin : 10px 100px;
+     /* align-items: center; */
+}
+.left{
+    background-color: blue;
+    flex-grow: 1;
+    
+    
+}
+.right{
+    background-color: red;
+    flex-grow: 2;
+   
+}
