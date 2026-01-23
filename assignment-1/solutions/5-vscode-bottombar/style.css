@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    padding: 10px 350px;
+
+}
+.right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 90px;
+    row-gap: 22px;
+    align-content: center;
+    justify-content: end;
+}
+.right .JTP,
+.right .CCH,
+.right .JJP,
+.right .MPY{
+    display: contents;
+}
+
+.right p{
+    margin: 0;
+}
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
